@@ -1,4 +1,4 @@
-# @umituz/react-native-typography
+# @umituz/react-native-design-system-typography
 
 Typography types and utilities for React Native applications following Material Design 3 principles.
 
@@ -13,13 +13,13 @@ Typography types and utilities for React Native applications following Material 
 ## 📦 Installation
 
 ```bash
-npm install @umituz/react-native-typography
+npm install @umituz/react-native-design-system-typography
 ```
 
 ### Peer Dependencies
 
 ```bash
-npm install @umituz/react-native-theme
+npm install @umituz/react-native-design-system-theme
 ```
 
 ## 🚀 Usage
@@ -27,7 +27,7 @@ npm install @umituz/react-native-theme
 ### Types
 
 ```typescript
-import type { TextStyleVariant, ColorVariant } from '@umituz/react-native-typography';
+import type { TextStyleVariant, ColorVariant } from '@umituz/react-native-design-system-typography';
 
 // Text style variants
 const variant: TextStyleVariant = 'headlineLarge';
@@ -39,8 +39,8 @@ const color: ColorVariant = 'textPrimary';
 ### Utilities
 
 ```typescript
-import { getTextColor } from '@umituz/react-native-typography';
-import { useAppDesignTokens } from '@umituz/react-native-theme';
+import { getTextColor } from '@umituz/react-native-design-system-typography';
+import { useAppDesignTokens } from '@umituz/react-native-design-system-theme';
 
 const MyComponent = () => {
   const tokens = useAppDesignTokens();
@@ -83,7 +83,7 @@ Resolves a color variant to an actual color value from design tokens.
 
 **Parameters:**
 - `color`: `ColorVariant | string | undefined` - Color variant or custom color string
-- `tokens`: `DesignTokens` - Design tokens from `@umituz/react-native-theme`
+- `tokens`: `DesignTokens` - Design tokens from `@umituz/react-native-design-system-theme`
 
 **Returns:** `string` - Resolved color value
 
@@ -117,7 +117,7 @@ const customColor = getTextColor('#FF0000', tokens); // Returns custom color as-
 ## 🔗 Related Packages
 
 - `@umituz/react-native-design-system` - UI components using these typography types
-- `@umituz/react-native-theme` - Design tokens and theme system
+- `@umituz/react-native-design-system-theme` - Design tokens and theme system
 
 ## 📝 License
 

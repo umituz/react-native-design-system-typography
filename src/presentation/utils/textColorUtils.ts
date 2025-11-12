@@ -7,7 +7,7 @@
  */
 
 import type { ColorVariant } from '../../domain/entities/TypographyTypes';
-import type { DesignTokens } from '@umituz/react-native-theme';
+import type { DesignTokens } from '@umituz/react-native-design-system-theme';
 
 /**
  * Get text color from design tokens based on color variant

@@ -1,5 +1,5 @@
 {
-  "name": "@umituz/react-native-typography",
+  "name": "@umituz/react-native-design-system-typography",
   "version": "1.1.0",
   "description": "Typography types and utilities for React Native - Material Design 3 text styles and color variants",
   "main": "./src/index.ts",
@@ -22,12 +22,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/umituz/react-native-typography"
+    "url": "https://github.com/umituz/react-native-design-system-typography"
   },
   "peerDependencies": {
     "react": ">=18.2.0",
     "react-native": ">=0.74.0",
-    "@umituz/react-native-theme": "latest"
+    "@umituz/react-native-design-system-theme": "latest"
   },
   "devDependencies": {
     "@types/react": "^18.2.45",

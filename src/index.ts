@@ -1,5 +1,5 @@
 /**
- * @umituz/react-native-typography - Public API
+ * @umituz/react-native-design-system-typography - Public API
  *
  * Typography types and utilities for React Native applications
  * Material Design 3 text styles and color variants
@@ -10,7 +10,7 @@
  * - Type-safe typography helpers
  *
  * Usage:
- *   import { TextStyleVariant, ColorVariant, getTextColor } from '@umituz/react-native-typography';
+ *   import { TextStyleVariant, ColorVariant, getTextColor } from '@umituz/react-native-design-system-typography';
  */
 
 // =============================================================================
